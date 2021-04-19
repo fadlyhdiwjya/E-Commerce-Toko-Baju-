@@ -1,0 +1,176 @@
+body {
+	font-family: 'montserrat';
+	font-weight: 200;
+	
+}
+
+.navbar {
+	background-color: #171717;
+}
+.nav-item {
+	margin-right: 24px;
+}
+.nav-item.active a {
+	color: #f9b324 !important;
+	font-weight: 600;
+}
+.nav-item i {
+	color: white;
+}
+
+/*carousel*/
+
+.carousel {
+	height: 450px;
+	background-color: #171717;
+	color: white;
+}
+
+.carousel h1 {
+	font-family: 'montserrat';
+	font-weight: 200;
+	
+}
+.carousel p {
+	font-weight: 200px;
+}
+
+
+/*Brand*/
+
+.brand h3,  {
+	font-family: 'lora';
+	font-weight: 400;
+}
+
+/*feature*/
+
+.feature h3, h3, .similar h1 , .cart-header h3, .check h3, .categori h1 {
+	font-family: 'lora';
+	color: #1b2690;
+	font-weight: bold;
+}
+
+.feature p, p, .cart-header p, .categori p {
+	font-weight: 300;
+	color: #b7b7b7;
+}
+
+.figure-caption h5 {
+	color: #171717;
+}
+.figure-img {
+	position: relative;
+}
+.figure-img a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 8px;
+	background-color: rgba(0,0,0,.7);
+	opacity: 0;
+	transition: opacaity 0,3s;
+}
+
+.figure-img:hover a{
+	opacity: 1;
+}
+
+/*breadcrumb*/
+
+.breadcrumb {
+	margin-top: 60px;
+}
+.cart-breadcrumb{
+	margin-top: 20px;
+}
+.cart-header {
+	margin-top: 70px;
+}
+
+.product-container {
+	background-color: white;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+	width: 360px; padding: 8px;
+	margin: auto;
+	transform: translateY(-60px);
+}
+.product-container a:hover{
+	text-decoration: none;
+}
+
+.btn-product {
+	margin:30px 0;
+	padding: 30px;
+	border-bottom: 3px solid #eaeaef;
+}
+.btn-product .btn{
+	display: block;
+	margin: 20px 0;
+}
+
+.designed h5 {
+		font-weight: 200;
+		font-size: 14px;
+		color: #b7b7b7;
+		margin-bottom: 20px;
+		margin: 0px;
+
+}
+
+.designed h4 {
+	font-size: 18px;
+	color: #171717;
+}
+.designed p{
+	font-size: 14px;
+	font-weight: 200;
+}
+
+.designed p span{
+	color: #b7b7b7;
+}
+
+.product-desc {
+	background-color: #f6f7f8;
+	height: 350px;
+}
+.product-desc .tab-content {
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-top: 0;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+.product-desc .tab-content p {
+	font-weight: 200;
+	color: #868686;
+	line-height: 28px;
+	font-size: 16px;
+}
+
+.product-review{
+	height: 330px;
+	overflow: scroll;
+}
+
+.product-review h5 {
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.product-review p {
+	font-size: 14px !important; 
+}
+.similar {
+	margin-top: 180px;
+	margin-bottom: 100px;
+}
+
+.check-detail {
+	background-color: #f6f7fb;
+	border:1px solid #eaeaea;
+	color: #171717;
+}
